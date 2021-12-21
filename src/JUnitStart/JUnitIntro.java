@@ -20,6 +20,7 @@ public class JUnitIntro {
 	@Test	
     public void m7()   {					
 		
+		System.out.println("Dev push");
 		collector.addError(new Throwable("There is an error in first line"));							
 	    collector.addError(new Throwable("There is an error in second line"));							
 
